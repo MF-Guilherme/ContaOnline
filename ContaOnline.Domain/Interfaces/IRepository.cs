@@ -9,9 +9,9 @@ namespace ContaOnline.Domain.Interfaces
 {
     public interface IRepository<T>
     {
-        void Incluir(T contaCategoria);
+        void Incluir(T entidade);
 
-        void Alterar(T contaCategoria);
+        void Alterar(T entidade);
 
         void Excluir(string id);
 

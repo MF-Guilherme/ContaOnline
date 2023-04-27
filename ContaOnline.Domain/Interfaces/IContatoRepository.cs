@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace ContaOnline.Domain.Interfaces
 {
-    public interface IUsuario : IRepository<IUsuario>
+    public interface IContatoRepository:IRepository<Contato>
     {
-        Usuario ObterPorEmailSenha(string email, string senha);
     }
 }
